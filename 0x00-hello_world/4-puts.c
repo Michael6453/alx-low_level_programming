@@ -2,7 +2,8 @@
 /**
 *main- Serves as the entry point for the program
 *
-*Return: By default returns zero if no errors, otherwise return a non-zero value.
+*Return: By default returns zero if no errors,
+otherwise return a non-zero value.
 */
 int main(void)
 {
