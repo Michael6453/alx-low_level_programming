@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- *main- Serves as the entry point for the program
- *
- *Return : return zero
+ * main - starts the program
+ * Return: returns zero
  */
 
-int main (void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
