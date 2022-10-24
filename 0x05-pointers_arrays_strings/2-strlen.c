@@ -1,17 +1,13 @@
 #include "main.h"
+#include <string.h>
 
- /** 
-  * _strlen - return the length of a string 
-  * Owned By OMG 
-  * @s: char to check 
-  * Description: this will return the length of a string 
-  * Return: 0 is success 
-  */ 
- int _strlen(char *s) 
- { 
-         int a = 0; 
-  
-         for (; *s++;) 
-                 a++; 
-         return (a); 
- }
+/**
+ * _strlen - to get the length of a string
+ * @s: string pointer to passed to this function
+ * Return: Returns length of the string
+ */
+
+int _strlen(char *s)
+{
+return (strlen(s));
+}
