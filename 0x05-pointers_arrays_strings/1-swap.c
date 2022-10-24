@@ -5,12 +5,13 @@
  * @a: first int 
  * @b: second int 
  * Return 0 
- */ 
+ */
+
  void swap_int(int *a, int *b) 
  { 
-                 int s; 
+                 int temp; 
   
-                 s = *a; 
+                 temp = *a; 
                  *a = *b; 
-                 *b = s; 
+                 *b = temp; 
  }
